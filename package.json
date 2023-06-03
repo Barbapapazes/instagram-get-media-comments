@@ -1,0 +1,32 @@
+{
+  "name": "instagram-get-media-comments",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Get every comments from an Instagram media",
+  "scripts": {
+    "start": "jiti src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barbapapazes/instagram-get-media-comments.git"
+  },
+  "author": "Barbapapazes <pro.soubiran@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barbapapazes/instagram-get-media-comments/issues"
+  },
+  "homepage": "https://github.com/Barbapapazes/instagram-get-media-comments#readme",
+  "packageManager": "pnpm@8.6.0",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.4",
+    "@types/node": "^20.2.5",
+    "eslint": "^8.42.0",
+    "jiti": "^1.18.2",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "consola": "^3.1.0",
+    "dotenv": "^16.1.3",
+    "ofetch": "^1.0.1"
+  }
+}
