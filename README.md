@@ -24,6 +24,8 @@ You can get the access token using the [Graph Explorer tool](https://developers.
 
 And _voilà_!
 
+You can convert the JSON to CSV using [this tool](https://www.convertcsv.com/json-to-csv.htm).
+
 ## Usage
 
 ```bash
