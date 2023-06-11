@@ -23,7 +23,7 @@ async function main() {
 
     // Parse the response
     for (const comment of response.data) {
-      const match = comment.text.match(textParser)
+      const match = comment.text.replaceAll('\n', '').trim().match(textParser)
       if (match) {
         data.push({
           username: comment.username,
