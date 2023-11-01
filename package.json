@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Barbapapazes/instagram-get-media-comments#readme",
   "packageManager": "pnpm@8.6.0",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.4",
+    "@antfu/eslint-config": "^1.0.0",
     "@types/node": "^20.2.5",
     "eslint": "^8.42.0",
     "jiti": "^1.18.2",
